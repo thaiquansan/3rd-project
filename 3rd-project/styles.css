@@ -1,0 +1,143 @@
+/* Gallery */
+nav.navbar {
+    background-color: #545454;
+    font-size: 28px;
+}
+a.nav-link {
+    color: #c2c2c2;
+}
+a.active {
+    color: white;
+}
+p {
+    color: #464646;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+div.pictures {
+    height: 650px;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+img.logo {
+    width: auto;
+}
+img.one {
+    height: 420px;
+    padding-bottom: 4px;
+}
+img.two {
+    height: 180px;
+    padding-right: 2px;
+}
+img.three {
+    height: 180px;
+    padding-left: 2px;
+}
+img.four {
+    height: 300px;
+    padding-bottom: 4px;
+}
+img.five {
+    height: 300px;
+}
+img.six {
+    height: 200px;
+    width: 100%;
+}
+img.seven {
+    height: 400px;
+    padding-top: 5px;
+}
+.hr1 {
+    width: 1140px;
+    margin-left: 80px;
+}
+.blockquote {
+    border: 1px solid #ECECEC;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+    border-radius: 28px;
+    width: 917px;
+    height: 250px;
+}
+.blockquote p.quote {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    padding: 33px 69px;
+    text-align: left;
+    display: inline-block;
+    width: 900px;
+}
+p.author {
+    font-size: 37px;
+    font-weight: 700;
+    display: inline-block;
+    width: 300px;
+    margin: 23% 7%;
+}
+
+/* Quote */
+#quoteTab input, #quoteTab textarea {
+    border-radius: 17px;
+    font-size: 28px;
+    text-indent: 7px;
+}
+input.authorInput {
+    height: 70px;
+}
+input.imgUpload {
+    display: none;
+}
+label.imgUpload {
+    font-size: 28px;
+    color: grey;
+    border: solid 1px #cfcfcf;
+    border-radius: 17px;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    padding: 14px;
+    z-index: -7;
+}
+label.imgUpload:hover {
+    color: #464646;
+    font-weight: 600;
+}
+textarea.quoteInput {
+    resize: none;
+    height: 220px;
+    margin-top: 23px;
+}
+.hr2 {
+    width: 100%;
+    margin-top: 43px;
+}
+p.preview {
+    font-weight: 600;
+}
+img.previewImg {
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+    object-fit: fill;
+    border-radius: 7px;
+}
+button.btnAdd {
+    font-size: 37px;
+    font-weight: 700;
+    display: inline-block;
+    width: 280px;
+    height: 100px;
+    margin: 33% 7%;
+    color: white;
+    background-color: #20E279;
+    border-radius: 17px;
+    border: 1px #20E279;
+}
